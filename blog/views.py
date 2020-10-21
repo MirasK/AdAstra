@@ -68,6 +68,14 @@ class StudentsView(LoginRequiredMixin, ListView):
 
         return data
 
+class ProfileView(LoginRequiredMixin, ListView):
+    model = User
+    fields = ['content']
+    template_name = 'blog/sidebar/profile.html'
+
+    def get_context_data(self, **kwargs):
+        data = super().get_context_data(**kwargs)
+        return data
 
 class LessonView(LoginRequiredMixin, ListView):
     
