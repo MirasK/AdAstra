@@ -97,8 +97,8 @@ article {
 }
 
 .btn-outline-primary {
-    border-color: black;
-    color: black !important;
+    border-color: white;
+    color: white !important;
     padding: 12px 80px 12px 80px;
     font-weight: bold;
     background-color: #3C6EBD;

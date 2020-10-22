@@ -77,6 +77,7 @@ class ProfileView(LoginRequiredMixin, ListView):
         data = super().get_context_data(**kwargs)
         return data
 
+
 class LessonView(LoginRequiredMixin, ListView):
     
     model = Event

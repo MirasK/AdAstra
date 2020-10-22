@@ -4,7 +4,7 @@ from .views import (
     CalendarView,
     StudentsView,
     LessonView,
-    ProfileView
+    ProfileView,
     )
 
 urlpatterns = [

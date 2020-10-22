@@ -9,9 +9,11 @@
         </div>
 
         <ul class="list-unstyled components">
+        {% if user.user_type == 2 or user.user_type == 1 %}
             <li>
                 <a href="{% url 'students' %}">Students</a>
             </li>
+        {% endif %}
             <li>
                 <a href="{% url 'calendar' %}">Calendar</a>
             </li>
@@ -21,9 +23,6 @@
             <li>
                 <a href="{% url 'profile' %}">Profile</a>
             </li>
-            <!-- <li>
-                <a href="#">Contact</a>
-            </li> -->
         </ul>
     </nav>
 
