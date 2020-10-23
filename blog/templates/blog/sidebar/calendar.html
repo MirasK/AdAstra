@@ -6,9 +6,11 @@
 <script type="text/javascript" src="{% static 'blog/fullcalendar/calendar.js' %}"></script>
 <script type="text/javascript">
    jQuery(document).ready(function() {
-    jQuery("#map").draggable(); 
+    jQuery("#map").draggable();
 });
 </script>
+<p>{{ user.id }}</p>
+<p>{{ event.student_id }}</p>
 <div class="calendar"></div>
 
 {% endblock sidebarOptions %}

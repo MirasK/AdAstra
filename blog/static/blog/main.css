@@ -97,13 +97,17 @@ article {
 }
 
 .btn-outline-primary {
-    border-color: white;
+    border-color: #d5dbeb;
     color: white !important;
     padding: 12px 80px 12px 80px;
     font-weight: bold;
     background-color: #3C6EBD;
     border:0;
     border-radius: 25px;
+}
+.btn-online-primary p {
+    text-color: black;
+    text-align: center;
 }
 
 .btn:active, .btn-outline-primary:hover {
@@ -231,7 +235,7 @@ input[type="file"]::-webkit-file-upload-button {
 
 
 .scrollable {
-  overflow-y: auto; 
+  overflow-y: auto;
   border-left: 1px solid #2d3741;
   border-right: 1px solid #2d3741;
 
